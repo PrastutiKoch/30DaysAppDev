@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="430dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageViews"
+        android:layout_width="164dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/profile" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="102dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity=""
+            android:text="Even if you cannot change all the people around you, you can change the people you choose to be around. Life is too short to waste your time on people who don't respect, appreciate, and value you. Spend your life with people who make you smile, laugh, and feel loved. Life is too short to waste your time on people who don't respect, appreciate, and value you. Spend your life with people who make you smile, laugh, and feel loved.Even if you cannot change all the people around you
+
+            Even if you cannot change all the people around you,hiiiiiii Spend your life with people who make you smile, laugh, and feel loved.The greatest glory in living lies not in never falling, but in rising every time we fall"
+            android:textSize="12dp" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageViewss"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/profile" />
+
+
+</LinearLayout>
