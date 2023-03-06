@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cream"
+    tools:context=".text">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="History"
+        android:textColor="@color/red1"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/valentine" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/red1"
+        android:text="Valentine's Day, also called Saint Valentine's Day or the Feast of Saint Valentine, is celebrated annually on February 14. It originated as a Christian feast day honoring a martyr named Valentine.The celebrations begin a week before with Rose Day, Propose Day, Chocolate Day, Teddy Day, Promise Day, Hug Day, and Kiss Day.Contrary to popular belief, this day is not only for lovers, but for all those whom we love. Of course, Valentine's Day is not the only day to share our love. Rather, it is yet another opportunity to let those whom we love know how much we love and appreciate them"/>
+
+
+</LinearLayout>

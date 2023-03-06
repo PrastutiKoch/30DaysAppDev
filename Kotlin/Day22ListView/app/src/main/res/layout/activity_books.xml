@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/orange"
+    tools:context=".Books">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        app:srcCompat="@drawable/almanack"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Almanack of Naval Ravikant compiles the valuable lessons of Naval Ravikant, who teaches people how to build wealth and achieve long-term happiness by working on a few essential skills, all while discovering the secrets of living a good life."
+        android:textAlignment="center"
+        android:layout_margin="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+</LinearLayout>

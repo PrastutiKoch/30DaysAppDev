@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainbackground"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="WELCOME"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+         />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSignUp"
+        android:layout_marginTop="100dp"
+        android:layout_width="150dp"
+        app:cardBackgroundColor="@color/grey"
+
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp"
+        android:layout_height="150dp" >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:textAlignment="center"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSignin"
+        app:cardBackgroundColor="@color/grey"
+        android:layout_width="150dp"
+        android:layout_marginTop="50dp"
+
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp"
+        android:layout_height="150dp" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:text="SIGN IN"
+            android:textAlignment="center"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "132177675516",
+    "project_id": "day17-read-database",
+    "storage_bucket": "day17-read-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132177675516:android:e0cffea6fce1e7ed180379",
+        "android_client_info": {
+          "package_name": "com.example.day17_readdatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132177675516-g92r6adn6i7vje4uh4ttua1e5vr6m0ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVEUnM0oGLC25sdQYTm2oMnuYtsx-vyPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132177675516-g92r6adn6i7vje4uh4ttua1e5vr6m0ab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

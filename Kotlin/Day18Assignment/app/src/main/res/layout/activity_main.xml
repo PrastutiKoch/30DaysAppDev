@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Python Programming"
+        android:textSize="30dp"
+        android:background="@color/purple_500"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Multiple choice Questions"
+        android:textSize="30dp"
+        android:textColorHighlight="@color/purple_500"
+        android:background="@color/purple_500"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@color/teal_200"
+        android:id="@+id/c1"
+        android:layout_margin="30dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:text="Question 1"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/c2"
+        app:cardBackgroundColor="@color/teal_200"
+        android:layout_margin="30dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:text="Question 2"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/c3"
+        app:cardBackgroundColor="@color/teal_200"
+        android:layout_margin="30dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:text="Question 3"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/purple_500"
+        android:text="Exit"
+        android:layout_margin="20dp"/>
+
+
+
+</LinearLayout>

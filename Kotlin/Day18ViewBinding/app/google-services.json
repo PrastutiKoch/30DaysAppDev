@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "913884835165",
+    "project_id": "day-18-view-binding",
+    "storage_bucket": "day-18-view-binding.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913884835165:android:6ad4758faa5013487d0cb4",
+        "android_client_info": {
+          "package_name": "com.example.day_18viewbinding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913884835165-i381vb9ms3ujng2l6aik82uj7q82bn2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy9Na552apf8NVLGk3fNmC-FLzzAGI6_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913884835165-i381vb9ms3ujng2l6aik82uj7q82bn2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
